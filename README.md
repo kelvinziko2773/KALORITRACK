@@ -52,7 +52,7 @@ Teknologi utama yang digunakan:
 | Firebase Firestore | Database real-time |
 | GitHub Pages | Web dashboard publik |
 
-3 Fitur Utama untuk Demo
+## 3 Fitur Utama untuk Demo
 1. Halaman Menu Makanan dari API Eksternal
 
 Data makanan/nutrisi diambil dari API eksternal, misalnya https://api.api-ninjas.com/v1/nutrition?query= atau API nutrisi lain seperti Edamam/Nutritionix.
