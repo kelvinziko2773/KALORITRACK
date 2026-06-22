@@ -1,7 +1,7 @@
 # 🥗 KaloriTrack
 
 <p align="center">
-  <img src="assets/images/splash-icon.png" width="120" alt="KaloriTrack Logo"/>
+  <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f957.png" width="150" alt="Makanan Sehat"/>
 </p>
 
 <p align="center">
