@@ -1,4 +1,4 @@
-                        # 🥗 KaloriTrack
+<h1 align="center">🥗 KaloriTrack</h1>
 
 KaloriTrack adalah aplikasi mobile berbasis **React Native** dan **Expo**
 untuk mencatat dan memantau asupan kalori harian secara mudah dan akurat.
