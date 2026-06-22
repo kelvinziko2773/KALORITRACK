@@ -1,5 +1,3 @@
-![Makanan Sehat](https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f957.png)
-
 # 🥗 KaloriTrack
 
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
