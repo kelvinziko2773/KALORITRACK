@@ -14,10 +14,10 @@ KaloriTrack hadir sebagai solusi digital untuk gaya hidup sehat masa kini.
 
 ## 👥 Anggota Tim dan Pembagian Tugas
 
-| No | Nama | NRP | Tugas Utama | Tanggung Jawab Demo |
+| No | Nama | NRP | Peran | Tugas Utama | Tanggung Jawab Demo |
 |----|------|-----|-------------|---------------------|
-| 1 | Ziko Kelvin Fahrezi | 0923040090 | Merancang seluruh sistem UI/UX aplikasi Kalori Track, merancang seluruh konsep dan tampilan pada Aplikasi termasuk integrasi dan jalannya Axios untuk komunikasi API eksternal| Menjelaskan seluruh konsep Aplikasi, dan seluruh sistem yang digunakan, dan menjelaskan fungsi dari aplikasi tersebut untuk mengontrol kalori|
-| 2 | Fauzi Eka Setyadi| 0923040106 | Merancang Firebase, Auth untuk integrasi layanan Firebase | Menjelaskan manajemen data lokal aplikasi dan arsitektur Firebase|
+| 1 | Ziko Kelvin Fahrezi | 0923040090 | Frontend & Axios Specialist |Merancang seluruh UI/UX aplikasi dan bertanggung jawab penuh atas integrasi Axios untuk berkomunikasi dengan API eksternal, Merancang seluruh sistem UI/UX aplikasi Kalori Track, merancang seluruh konsep dan tampilan pada Aplikasi termasuk integrasi dan jalannya Axios untuk komunikasi API eksternal| Menjelaskan seluruh konsep Aplikasi, dan seluruh sistem yang digunakan, dan menjelaskan fungsi dari aplikasi tersebut untuk mengontrol kalori|
+| 2 | Fauzi Eka Setyadi| 0923040106 | Backend, State & Firebase Specialist | Merancang Firebase, Auth untuk integrasi layanan Firebase | Menjelaskan manajemen data lokal aplikasi dan arsitektur Firebase|
 
 ## ✨ Fitur Aplikasi
 
@@ -52,7 +52,33 @@ Teknologi utama yang digunakan:
 | Firebase Firestore | Database real-time |
 | GitHub Pages | Web dashboard publik |
 
----
+3 Fitur Utama untuk Demo
+1. Halaman Menu Makanan dari API Eksternal
+
+Data makanan/nutrisi diambil dari API eksternal, misalnya https://api.api-ninjas.com/v1/nutrition?query= atau API nutrisi lain seperti Edamam/Nutritionix.
+Axios digunakan di services/foodService.ts untuk fetch data.
+Data API dimapping menjadi struktur FoodItem (nama makanan, kalori, protein, karbohidrat, lemak, gambar), lalu ditampilkan di halaman Menu Makanan menggunakan useFood (custom hook) dan FoodCard (komponen tampilan).
+
+2. Pilihan Makanan Customer & Pencatatan Kalori Harian
+
+User mengambil daftar makanan dari API eksternal yang sama menggunakan Axios.
+User dapat memilih makanan yang dikonsumsi (sarapan/makan siang/makan malam/snack) beserta porsinya.
+Total kalori otomatis dihitung dari pilihan tersebut.
+Hasil pilihan (catatan harian) disimpan ke Firestore pada collection catatanKalori, dengan field seperti userId, tanggal, daftarMakanan, totalKalori.
+
+3. Dashboard CRUD Firebase (Admin/User)
+
+Admin dapat menambah, mengubah, dan menghapus data seperti target kalori, kategori makanan, dan riwayat progres berat badan.
+Data disimpan di Cloud Firestore.
+Realtime update menggunakan onSnapshot, sehingga perubahan data (misalnya total kalori hari ini atau progres berat) langsung tampil tanpa refresh manual.
+
+4. Pencatatan Konsumsi Air Minum Harian
+
+User dapat menambah catatan setiap kali minum air, dengan input jumlah (ml) — bisa pakai tombol cepat seperti "+250ml", "+500ml", atau input manual.
+Tidak butuh API eksternal (data air bukan makanan, jadi tidak perlu dicari nutrisinya).
+Data disimpan ke Firestore pada collection catatanMinum, dengan field seperti userId, tanggal, jumlahMl, waktu.
+Total konsumsi air harian dihitung otomatis dan dibandingkan dengan target harian (misal 2000ml), ditampilkan dalam bentuk progress bar.
+Realtime update menggunakan onSnapshot, jadi setiap kali user menambah catatan minum, progress bar langsung update tanpa refresh.
 
 ## 🚀 Cara Menjalankan
 
