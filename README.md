@@ -5,14 +5,18 @@
 </p>
 
 <p align="center">
+  <p align="center">
   KaloriTrack adalah aplikasi mobile berbasis <b>React Native</b> dan <b>Expo</b>
   untuk mencatat dan memantau asupan kalori harian secara mudah dan akurat.
+  Aplikasi ini dirancang untuk membantu pengguna menjaga pola makan sehat
+  dengan fitur pencatatan makanan, scan otomatis, dan statistik kalori mingguan
+  yang ditampilkan secara visual dan interaktif.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+  Dilengkapi dengan autentikasi Firebase yang aman, database real-time,
+  serta web dashboard publik yang dapat diakses dari browser kapan saja dan di mana saja.
+  KaloriTrack hadir sebagai solusi digital untuk gaya hidup sehat masa kini.
 </p>
 
 ---
@@ -21,9 +25,9 @@
 
 | No | Nama | NRP | Tugas Utama | Tanggung Jawab Demo |
 |----|------|-----|-------------|---------------------|
-| 1 | Ziko Kelvin | 1234567890 | UI/UX, Screens | StatsScreen, HomeScreen |
-| 2 | Nama Anggota 2 | 1234567891 | Firebase, Auth | Login, Register |
-| 3 | Nama Anggota 3 | 1234567892 | API, Scan Makanan | ScanfoodScreen |
+| 1 | Ziko Kelvin | 0923040090 | UI/UX, Screens | StatsScreen, HomeScreen |
+| 2 | Fauzi Eka | 1234567891 | Firebase, Auth | Login, Register |
+
 
 > Sesuaikan nama, NRP, dan pembagian tugas dengan tim kamu
 
