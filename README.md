@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
+# 🥗 KaloriTrack
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="assets/images/splash-icon.png" width="120" alt="KaloriTrack Logo"/>
+</p>
 
-## Get started
+<p align="center">
+  KaloriTrack adalah aplikasi mobile berbasis <b>React Native</b> dan <b>Expo</b>
+  untuk mencatat dan memantau asupan kalori harian secara mudah dan akurat.
+</p>
 
-1. Install dependencies
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+</p>
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 👥 Anggota Tim dan Pembagian Tugas
 
-   ```bash
-   npx expo start
-   ```
+| No | Nama | NRP | Tugas Utama | Tanggung Jawab Demo |
+|----|------|-----|-------------|---------------------|
+| 1 | Ziko Kelvin | 1234567890 | UI/UX, Screens | StatsScreen, HomeScreen |
+| 2 | Nama Anggota 2 | 1234567891 | Firebase, Auth | Login, Register |
+| 3 | Nama Anggota 3 | 1234567892 | API, Scan Makanan | ScanfoodScreen |
 
-In the output, you'll find options to open the app in a
+> Sesuaikan nama, NRP, dan pembagian tugas dengan tim kamu
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ✨ Fitur Aplikasi
 
-## Get a fresh project
+- 🔐 **Login & Register** — Autentikasi aman dengan Firebase Authentication
+- ➕ **Tambah Makanan** — Catat makanan beserta informasi kalori
+- 📷 **Scan Makanan** — Identifikasi makanan otomatis via kamera
+- 📊 **Statistik Mingguan** — Grafik kalori 7 hari terakhir
+- 👤 **Profil Pengguna** — Kelola data dan target kalori harian
+- 🌐 **Web Dashboard** — Pantau statistik kalori dari browser
 
-When you're ready, run:
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+| Teknologi | Kegunaan |
+|-----------|----------|
+| React Native (Expo) | Framework utama aplikasi mobile |
+| Firebase Authentication | Login & Register pengguna |
+| Firebase Firestore | Database real-time |
+| GitHub Pages | Web dashboard publik |
+
+---
+
+## 🚀 Cara Menjalankan
+
+### 1. Clone repo
 
 ```bash
-npm run reset-project
+git clone https://github.com/kelvinziko2773/KALORITRACK.git
+cd KALORITRACK
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Install dependencies
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### 3. Setup Firebase
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+cp src/config/firebase.example.js src/config/firebase.js
+```
 
-## Join the community
+Lalu isi `src/config/firebase.js` dengan config Firebase kamu.
 
-Join our community of developers creating universal apps.
+### 4. Jalankan aplikasi
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npx expo start
+```
+
+Buka di:
+- 📱 **Expo Go** — scan QR code dari terminal
+- 🤖 **Android Emulator**
+- 🍎 **iOS Simulator**
+
+---
+
+## 🌐 Web Dashboard
+
+Dashboard statistik kalori tersedia secara publik di:
+
+👉 **[https://kelvinziko2773.github.io/KALORITRACK](https://kelvinziko2773.github.io/KALORITRACK)**
+
+---
+
+## 📁 Struktur Project
