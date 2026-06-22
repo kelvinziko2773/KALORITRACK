@@ -168,8 +168,8 @@ KALORITRACK/
 
 Dashboard statistik kalori tersedia secara publik di:
 
-👉 **[https://kelvinziko2773.github.io/KALORITRACK](https://kelvinziko2773.github.io/KALORITRACK)**
+👉**[https://kelvinziko2773.github.io/KALORITRACK](https://kelvinziko2773.github.io/KALORITRACK)**
 
 ## Link Repositori GitHub/Gitlab
 
-https://github.com/kelvinziko2773/KALORITRACK.git
+👉 https://github.com/kelvinziko2773/KALORITRACK.git
