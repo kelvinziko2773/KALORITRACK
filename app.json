@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "KaloriTrack",
+    "slug": "kaloritrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/react-logo.png",
+    "splash": {
+      "image": "./assets/images/react-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/react-logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
