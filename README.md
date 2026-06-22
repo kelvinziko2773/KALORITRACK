@@ -88,7 +88,56 @@ Buka di:
 - 🤖 **Android Emulator**
 - 🍎 **iOS Simulator**
 
----
+## 📁 Struktur Project
+KALORITRACK/
+
+├── 📁 assets/               # Gambar dan icon
+
+├── 📁 docs/                 # Web dashboard (GitHub Pages)
+
+│   └── index.html
+
+├── 📁 src/
+
+│   ├── 📁 config/
+
+│   │   ├── firebase.js              # Config Firebase (rahasia)
+
+│   │   └── firebase.example.js     # Template config
+
+│   ├── 📁 context/
+
+│   │   └── AuthContext.js
+
+│   ├── 📁 navigation/
+
+│   │   └── AppNavigator.js
+
+│   ├── 📁 screens/
+
+│   │   ├── LoginScreen.js
+
+│   │   ├── RegisterScreen.js
+
+│   │   ├── HomeScreen.js
+
+│   │   ├── AddFoodScreen.js
+
+│   │   ├── ScanfoodScreen.js
+
+│   │   ├── StatsScreen.js
+
+│   │   └── ProfileScreen.js
+
+│   └── 📁 services/
+
+│       └── nutritionApi.js
+
+├── App.js
+
+├── .gitignore
+
+└── README.md
 
 ## 🌐 Web Dashboard
 
@@ -96,6 +145,3 @@ Dashboard statistik kalori tersedia secara publik di:
 
 👉 **[https://kelvinziko2773.github.io/KALORITRACK](https://kelvinziko2773.github.io/KALORITRACK)**
 
----
-
-## 📁 Struktur Project
