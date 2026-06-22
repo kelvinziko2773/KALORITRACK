@@ -15,9 +15,9 @@ KaloriTrack hadir sebagai solusi digital untuk gaya hidup sehat masa kini.
 ## 👥 Anggota Tim dan Pembagian Tugas
 
 | No | Nama | NRP | Peran | Tugas Utama | Tanggung Jawab Demo |
-|----|------|-----|-------------|---------------------|
-| 1 | Ziko Kelvin Fahrezi | 0923040090 | Frontend & Axios Specialist |Merancang seluruh UI/UX aplikasi dan bertanggung jawab penuh atas integrasi Axios untuk berkomunikasi dengan API eksternal, Merancang seluruh sistem UI/UX aplikasi Kalori Track, merancang seluruh konsep dan tampilan pada Aplikasi termasuk integrasi dan jalannya Axios untuk komunikasi API eksternal| Menjelaskan seluruh konsep Aplikasi, dan seluruh sistem yang digunakan, dan menjelaskan fungsi dari aplikasi tersebut untuk mengontrol kalori|
-| 2 | Fauzi Eka Setyadi| 0923040106 | Backend, State & Firebase Specialist | Merancang Firebase, Auth untuk integrasi layanan Firebase | Menjelaskan manajemen data lokal aplikasi dan arsitektur Firebase|
+|----|------|-----|-------|--------------|----------------------|
+| 1 | Ziko Kelvin Fahrezi | 0923040090 | Frontend & Axios Specialist | Merancang seluruh UI/UX aplikasi Kalori Track, termasuk konsep dan tampilan keseluruhan. Bertanggung jawab penuh atas integrasi Axios untuk komunikasi dengan API eksternal (pengambilan data makanan/menu). | Menjelaskan konsep aplikasi secara keseluruhan, sistem yang digunakan, serta fungsi aplikasi dalam membantu pengguna mengontrol kalori harian. |
+| 2 | Fauzi Eka Setyadi | 0923040106 | Backend, State & Firebase Specialist | Merancang struktur Firebase (Firestore & Auth), mengelola state aplikasi, serta integrasi layanan Firebase untuk penyimpanan data (catatan kalori, minum, dan dashboard CRUD). | Menjelaskan manajemen data lokal aplikasi serta arsitektur Firebase yang digunakan, termasuk alur realtime update (onSnapshot). |
 
 ## ✨ Fitur Aplikasi
 
