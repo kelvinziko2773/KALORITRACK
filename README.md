@@ -1,23 +1,20 @@
+![Makanan Sehat](https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f957.png)
+
 # 🥗 KaloriTrack
 
-<p align="center">
-  <img src="https://images.emojiterra.com/google/noto-emoji/unicode-15/color/512px/1f957.png" width="150" alt="Makanan Sehat"/>
-</p>
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 
-<p align="center">
-  <p align="center">
-  KaloriTrack adalah aplikasi mobile berbasis <b>React Native</b> dan <b>Expo</b>
-  untuk mencatat dan memantau asupan kalori harian secara mudah dan akurat.
-  Aplikasi ini dirancang untuk membantu pengguna menjaga pola makan sehat
-  dengan fitur pencatatan makanan, scan otomatis, dan statistik kalori mingguan
-  yang ditampilkan secara visual dan interaktif.
-</p>
+KaloriTrack adalah aplikasi mobile berbasis **React Native** dan **Expo**
+untuk mencatat dan memantau asupan kalori harian secara mudah dan akurat.
+Aplikasi ini dirancang untuk membantu pengguna menjaga pola makan sehat
+dengan fitur pencatatan makanan, scan otomatis, dan statistik kalori mingguan
+yang ditampilkan secara visual dan interaktif.
 
-<p align="center">
-  Dilengkapi dengan autentikasi Firebase yang aman, database real-time,
-  serta web dashboard publik yang dapat diakses dari browser kapan saja dan di mana saja.
-  KaloriTrack hadir sebagai solusi digital untuk gaya hidup sehat masa kini.
-</p>
+Dilengkapi dengan autentikasi Firebase yang aman, database real-time,
+serta web dashboard publik yang dapat diakses dari browser kapan saja dan di mana saja.
+KaloriTrack hadir sebagai solusi digital untuk gaya hidup sehat masa kini.
 
 ---
 
