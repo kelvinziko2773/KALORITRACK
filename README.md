@@ -1,4 +1,4 @@
-# 🥗 KaloriTrack
+                        # 🥗 KaloriTrack
 
 KaloriTrack adalah aplikasi mobile berbasis **React Native** dan **Expo**
 untuk mencatat dan memantau asupan kalori harian secara mudah dan akurat.
@@ -91,9 +91,9 @@ Buka di:
 ## 📁 Struktur Project
 KALORITRACK/
 
-├── 📁 assets/               # Gambar dan icon
+├── 📁 assets/            
 
-├── 📁 docs/                 # Web dashboard (GitHub Pages)
+├── 📁 docs/               
 
 │   └── index.html
 
@@ -101,10 +101,9 @@ KALORITRACK/
 
 │   ├── 📁 config/
 
-│   │   ├── firebase.js              # Config Firebase (rahasia)
+│   │   ├── firebase.js              
 
-│   │   └── firebase.example.js     # Template config
-
+│   │   └── firebase.example.js   
 │   ├── 📁 context/
 
 │   │   └── AuthContext.js
